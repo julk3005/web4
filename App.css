@@ -1,0 +1,108 @@
+ /* Global */  
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: rgb(208, 250, 208);
+}
+
+.error {
+    background: red;
+}
+body { 
+    font-family: "Oswald", sans-serif;
+    background-color: #89eb19;
+    background-color: #ede1e0;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ff5300' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #fefeff;
+  color: rgb(6, 6, 6);
+  font-size: 18px;
+}
+a {
+    color: #062a6e;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Navigation */
+  .nav-main {
+    font: size 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 100px 0;
+  }
+  
+  .nav-brand {
+    width: 100px;
+  }
+  
+  /* Navbar Left */
+  .nav-main ul {
+    display: flex;
+  }
+  
+  .nav-main ul li {
+    padding: 90px;
+  }
+  
+  .nav-main ul li a {
+    padding: 30px;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 10px solid rgb(121, 6, 152);
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 9;
+    margin-left: 90px;
+  }
+  
+  hr {
+    margin: 90px 0;
+  }
+  
+  /* Responsive Button */
+  .menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    right: 90px;
+    z-index: 2;
+    display: none;
+  }
+  /* SHOWCASE */
+  
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 15px;
+    background: #730cb8;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+  }
+  
